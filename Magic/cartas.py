@@ -6,8 +6,7 @@ print("A  B  C")
 for i in range(0,7):
     print(a[i], b[i], c[i] )
 seleciona = input("Selecione uma das opções e diga em qual coluna ele se encontra: ")
-print("#################################################################")
- 
+
 if seleciona == "a" or seleciona == "a":
     lista =  b + a + c
 elif seleciona == "b" or seleciona == "B":
@@ -35,7 +34,6 @@ for i in range(7):
     print(listaA[i], listaB[i], listaC[i])
     
 seleciona2 = input("Selecione a coluna que está sua opção: ")
-print("#################################################################")
 
 
 if seleciona2 == "a" or seleciona2 == "a":
@@ -65,7 +63,6 @@ for i in range(7):
     print(listaA[i], listaB[i], listaC[i])
 
 seleciona3 = input("Selecione a coluna que está sua opção: ")
-print("#################################################################")
 
 if seleciona3 == "a" or seleciona3 == "a":
     lista =  listaB + listaA + listaC
